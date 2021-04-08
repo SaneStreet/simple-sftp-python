@@ -17,7 +17,7 @@ s.listen(1)
 # for the sake of easy connection
 # print the host name of the user
 print(host)
-print("Waiting for incoming connections..")
+print(f"Waiting for incoming connections on port {port}..")
 # when it receives a call, accept the conection
 conn, addr = s.accept()
 print(addr, "has connected to the server.")

@@ -10,11 +10,11 @@ port = 8080
 
 # connect to the socket with the hostname and port no.
 s.connect((host, port))
-print("Connected .. ")
+print(f"Connected to port {port}.. ")
 
 # prompt the user for a filename
 # to receive data from to a new file (.txt)
-filename = input(str("Enter a filename  for incoming file : "))
+filename = input(str("Enter a filename for incoming file : "))
 file = open(filename, 'wb') # make it writeable and in bytes
 file_data = s.recv(1024) #read the file in bytes
 file.write(file_data) # write the data to the new file
