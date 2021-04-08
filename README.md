@@ -25,6 +25,7 @@ You should now have 2 different Command Prompts (Terminals on IOS or BASH on Lin
 
 ### Structure:
 <pre>
+simple-sftp-python
 │   server.py
 │   transfer.txt
 │
